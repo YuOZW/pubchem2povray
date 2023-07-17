@@ -1,0 +1,105 @@
+povray: cannot open the system configuration file /usr/local/etc/povray/3.6/povray.conf: No such file or directory
+povray: cannot open the user configuration file /home/ozawa/.povray/3.6/povray.conf: No such file or directory
+povray: I/O restrictions are disabled.
+povray: cannot open an INI file, creating a temporary file '/home/ozawa/pubchem2povray/scratch/pov36.ini'.
+povray: removing '/home/ozawa/pubchem2povray/scratch/pov36.ini'.
+Persistence of Vision(tm) Ray Tracer Version 3.6.1 (g++ 3.4.1 @
+ i686-pc-linux-gnu)
+This is an official version prepared by the POV-Ray Team. See the
+ documentation on how to contact the authors or visit us on the
+ internet at http://www.povray.org/.
+POV-Ray is based on DKBTrace 2.12 by David K. Buck & Aaron A. Collins
+Copyright 1991-2003 Persistence of Vision Team
+Copyright 2003-2004 Persistence of Vision Raytracer Pty. Ltd.
+
+Primary POV-Ray 3.5/3.6 Developers: (Alphabetically)
+  Chris Cason         Thorsten Froehlich  Nathan Kopp         Ron Parker        
+
+Contributing Authors: (Alphabetically)
+  Steve Anger         Eric Barish         Dieter Bayer        Steve A. Bennett  
+  David K. Buck       Nicolas Calimet     Aaron A. Collins    Chris Dailey      
+  Steve Demlow        Andreas Dilger      Alexander Enzmann   Dan Farmer        
+  Mark Gordon         Christoph Hormann   Mike Hough          Chris Huff        
+  Kari Kivisalo       Lutz Kretzschmar    Jochen Lippert      Pascal Massimino  
+  Jim McElhiney       Douglas Muir        Juha Nieminen       Bill Pulver       
+  Eduard Schwan       Wlodzimierz Skiba   Robert Skinner      Yvo Smellenbergh  
+  Zsolt Szalavari     Scott Taylor        Massimo Valentini   Timothy Wegner    
+  Drew Wells          Chris Young       
+
+Other contributors are listed in the documentation.
+
+Support libraries used by POV-Ray:
+  ZLib 1.2.1, Copyright 1995-1998 Jean-loup Gailly and Mark Adler
+  LibPNG 1.2.5, Copyright 1998-2002 Glenn Randers-Pehrson
+  LibJPEG 6b, Copyright 1998 Thomas G. Lane
+  LibTIFF 3.6.1, Copyright 1988-1997 Sam Leffler, 1991-1997 SGI
+Init Warning: Quality settings 10 and 11 are no longer valid.
+Redirecting Options
+  All Streams to console..........On 
+  Debug Stream to console.........On 
+  Fatal Stream to console.........On 
+  Render Stream to console........On 
+  Statistics Stream to console....On 
+  Warning Stream to console.......On 
+Parsing Options
+  Input file: temp.pov (compatible to version 3.61)
+  Remove bounds........On 
+  Split unions.........Off
+  Library paths:
+    /usr/local/share/povray-3.6/include
+Output Options
+  Image resolution 1280 by 720 (rows 1 to 720, columns 1 to 1280).
+  Output file: /home/ozawa/pubchem2povray/scratch/temp.png, 24 bpp PNG
+  Graphic display......Off
+  Mosaic preview.......Off
+  CPU usage histogram..Off
+  Continued trace......Off
+Tracing Options
+  Quality:  9
+  Bounding boxes.......On   Bounding threshold: 25
+  Light Buffer.........On 
+  Vista Buffer.........On   Draw Vista Buffer....Off
+  Antialiasing.........On  (Method 1, Threshold 0.300, Depth 3, Jitter 1.00)
+  Clock value:    0.000  (Animation off)
+
+  0:00:00 Parsing
+File: temp.pov  Line: 158
+Parse Warning: No pigment type given.
+
+  0:00:00 Creating bounding slabs  0:00:00 Creating bounding slabs 3K tokens
+Scene Statistics
+  Finite objects:            2
+  Infinite objects:          0
+  Light sources:             2
+  Total:                     4
+
+  0:00:00 Rendering line 1 of 720, 0 supersamples  0:00:01 Rendering line 132 of 720, 291 supersamples  0:00:02 Rendering line 187 of 720, 1416 supersamples  0:00:03 Rendering line 217 of 720, 2496 supersamples  0:00:04 Rendering line 247 of 720, 3666 supersamples  0:00:05 Rendering line 275 of 720, 4625 supersamples  0:00:06 Rendering line 301 of 720, 5535 supersamples  0:00:07 Rendering line 329 of 720, 6714 supersamples  0:00:08 Rendering line 355 of 720, 7591 supersamples  0:00:09 Rendering line 386 of 720, 8268 supersamples  0:00:10 Rendering line 423 of 720, 9121 supersamples  0:00:11 Rendering line 436 of 720, 9526 supersamples  0:00:12 Rendering line 474 of 720, 10209 supersamples  0:00:13 Rendering line 508 of 720, 10916 supersamples  0:00:14 Rendering line 556 of 720, 11858 supersamples  0:00:15 Rendering line 607 of 720, 12888 supersamples  0:00:16 Rendering line 707 of 720, 13524 supersamples
+  0:00:16 Done Tracing
+Render Statistics
+Image Resolution 1280 x 720
+----------------------------------------------------------------------------
+Pixels:           922880   Samples:         1031072   Smpls/Pxl: 1.12
+Rays:            2888950   Saved:                 0   Max Level: 7/10
+----------------------------------------------------------------------------
+Ray->Shape Intersection          Tests       Succeeded  Percentage
+----------------------------------------------------------------------------
+Blob                           2888950          901270     31.20
+Blob Component                11891757         8559248     71.98
+Blob Bound                    49736065        20494903     41.21
+Cone/Cylinder                118446950           99365      0.08
+CSG Merge                      2888950          263314      9.11
+Sphere                       109780100          229753      0.21
+----------------------------------------------------------------------------
+Roots tested:               1799476   eliminated:               851851
+Calls to Noise:                   0   Calls to DNoise:              10
+----------------------------------------------------------------------------
+Transmitted Rays:           1857878
+----------------------------------------------------------------------------
+Smallest Alloc:                   9 bytes
+Largest  Alloc:               38408 bytes
+Peak memory used:            446466 bytes
+Total Scene Processing Times
+  Parse Time:    0 hours  0 minutes  0 seconds (0 seconds)
+  Photon Time:   0 hours  0 minutes  0 seconds (0 seconds)
+  Render Time:   0 hours  0 minutes 16 seconds (16 seconds)
+  Total Time:    0 hours  0 minutes 16 seconds (16 seconds)
